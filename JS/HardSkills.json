@@ -1,0 +1,27 @@
+[
+    {
+      "name": "HTML",
+      "logo": "<ion-icon name='logo-html5'></ion-icon>",
+      "level": "Very Good"
+    },
+    {
+        "name": "CSS",
+        "logo": "<ion-icon name='logo-css3'></ion-icon>",
+        "level": "Very Good"
+      },
+      {
+        "name": "JavaScript",
+        "logo": "<ion-icon name='logo-javascript'></ion-icon>",
+        "level": "Very Good"
+      },
+      {
+        "name": "Bootstrap",
+        "logo": "<ion-icon></ion-icon>",
+        "level": "Very Good"
+      },
+      {
+        "name": "ReactJS",
+        "logo": "<ion-icon name='logo-react'></ion-icon>",
+        "level": "Very Good"
+      }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "Name" : "Front-end Developer",
+        "img" : "FrontEndDeveloper.png",
+        "Link" : "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.toptal.com%2Ffront-end%2Ffront-end-design-principles&psig=AOvVaw25w7jOEAZxPiRVki02wlmb&ust=1686086189362000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLCM3-KIrf8CFQAAAAAdAAAAABAE"
+    },
+    {
+        "Name" : "Logo Designer",
+        "img" : "LogoDesign.png",
+        "Link" : ""
+    }
+]

@@ -1,0 +1,331 @@
+html{
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+}
+body{
+    background-color: #000000;
+}
+hr{
+    border: 1px #5900ff solid;
+    width: 90%;
+    margin-left: 5%;
+}
+
+/********HEADER********/
+header{
+    width: 100%;
+    height: 50px;
+    background-color: #101010;
+    display: flex;
+    padding: 3px;
+    margin-bottom: 20px;
+    column-gap: 3px;
+}
+header .BOXLOGO{
+    width: 60%;
+    height: 34px;
+    display: flex;
+}
+header .BOXLOGO img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+header .BOXLOGO h1{
+    color: #5900ff;
+    font-family: 'Tangerine', cursive;
+    font-weight: bold;
+    cursor: default;
+    font-size: 25px;
+}
+header .BOXCONTACT{
+    width: 40%;
+    height: 34px;
+    display: flex;
+    justify-content: flex-end;
+}
+header .BOXCONTACT .BOX{
+    width: 40px;
+    height: 40x;
+    cursor: pointer;
+}
+header .BOXCONTACT .BOX ion-icon{
+    width: 30px;
+    height: 30x;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #ffffff;
+}
+header .BOXCONTACT .BOX .BOXBAR{
+    display: inline-block;
+    background-color: transparent;
+    width: 37px;
+    height: 2px;
+}
+header .BOXCONTACT .BOX:hover ion-icon{
+    color: #5900ff;
+}
+header .BOXCONTACT .BOX:hover .BOXBAR{
+    background-color: #5900ff;
+    animation: Bar .5s;
+}
+@keyframes Bar {
+    0%{
+        background-color: transparent;
+    }
+    100%{
+        background-color: #5900ff;
+    }
+}
+
+/********BOX PRESENTATION********/
+section .BOXPresentation{
+    margin-bottom: 20px;
+    width: 90%;
+    margin-left: 5%;
+}
+section .BOXPresentation .BOXPre{
+    margin: 5%;
+}
+section .BOXPresentation .BOXPre h1{
+    font-family: 'Itim', cursive;
+    color: #ffffff;
+    font-size: 50px;
+    cursor: default;
+}
+h1 span{
+    color: #5900ff;
+}
+section .BOXPresentation .BOXPre p{
+    font-family: 'Itim', cursive;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 100px;
+    margin-left: 100px;
+    cursor: default;
+}
+section .BOXPresentation .BOXImg{
+    padding: 5%;
+}
+section .BOXPresentation .BOXImg img{
+    width: 90%;
+    height: 90%;
+    border-radius: 10% 50% 50% 50%;
+}
+
+/******Box Informations******/
+section .BOXInfo{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    justify-content: center;
+    column-gap: 40px;
+}
+section .BOXInfo .BOX{
+    margin-bottom: 20px;
+    text-align: center;
+}
+section .BOXInfo .BOX ion-icon{
+    width: 30px;
+    height: 30x;
+    color: #ffffff;
+}
+section .BOXInfo .BOX span{
+    color: #ffffff;
+    font-family: 'Itim', cursive;
+    font-weight: bold;
+    cursor: default;
+
+}
+
+/******Modify Box And Titles******/
+section .BOXLang,
+section .BOXSOFTSKILLS,
+section .BOXHARDSKILLS,
+section .BOXSERVICES,
+section .BOXPatfolio{
+    margin-left: 5%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 90%;
+}
+section .BOXLang h3,
+section .BOXSOFTSKILLS h3,
+section .BOXHARDSKILLS h3,
+section .BOXSERVICES h3,
+section .BOXPatfolio h3{
+    color: #ffffff;
+    font-family: 'Itim', cursive;
+    font-weight: bold;
+    cursor: default;
+
+}
+
+/******Box Langages******/
+section .softS,
+section .softH,
+section .Lang{
+    margin: 10px 20px;
+    justify-content: center;
+    column-gap: 20px;
+    padding: 5px;
+}
+section .Lang .BOX,
+section .softS .BOX,
+section .softH .BOX{
+    /*background-color: red;*/
+    text-align: center;
+    height: 100px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+section .softS .BOX ion-icon,
+section .softH .BOX ion-icon{
+    width: 40px;
+    height: 40px;
+}
+section .Lang .BOX .PORSON{
+    width: 40px;
+    height: 40px;
+    padding: 7px;
+    background-color: #5900ff;
+    color: #ffffff;
+    border-radius: 50%;
+    font-family: 'Itim', cursive;
+    font-weight: bold;
+    border: 1px solid #ffffff;
+    cursor: default;
+    margin-left: 45%;
+}
+section .softS .BOX .name,
+section .softH .BOX .name,
+section .Lang .BOX .Name{
+    color: #ffffff;
+    font-family: 'Itim', cursive;
+    font-weight: bold;
+    cursor: default;
+}
+section .softS .BOX .level,
+section .softH .BOX .level,
+section .Lang .BOX .Level{
+    color: #c4c4c4;
+    font-family: 'Itim', cursive;
+    font-weight: bold;
+    cursor: default;
+}
+
+/******Box Patfolio/Services******/
+section .BOXSERVICES .BoxGServ,
+section .BOXPatfolio .BoxGPatf{
+    justify-content: center;
+    column-gap: 40px;
+    margin: 10px 20px;
+    padding: 5px;
+}
+section .BOXSERVICES .SERV,
+section .BOXPatfolio .Preject{
+    background-color: #101010;
+    border-radius: 10px;
+    border: .5px solid #5900ff;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+section .BOXSERVICES .SERV img,
+section .BOXPatfolio .Preject img{
+    width: 90%;
+    border-radius: 5px;
+    margin: 5%;
+}
+section .BOXSERVICES .SERV .Name,
+section .BOXPatfolio .Preject .Name{
+    color: #5900ff;
+    font-family: 'Itim', cursive;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    cursor: default;
+}
+section .BOXSERVICES .SERV p,
+section .BOXPatfolio .Preject p{
+    text-align: right;
+}
+section .BOXSERVICES .SERV p a,
+section .BOXPatfolio .Preject p a{
+    color: #c4c4c4;
+    font-family: 'Itim', cursive;
+    font-weight: bold;
+    font-size: 10px;
+    text-decoration: none;
+}
+section .BOXPatfolio .Preject .PreProj{
+    color: #ffffff;
+    font-family: 'Itim', cursive;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    cursor: default;
+}
+section .BOXPatfolio .BoxL{
+    display: flex;
+    justify-content: center;
+}
+section .BoxListe{
+    width: 400px;
+    background-color: #101010;
+    border-radius: 5px;
+    justify-content: center;
+    column-gap: 5px;
+    padding: 5px;
+    border: .5px solid #5900ff;
+}
+section .BoxListe .bouton{
+    background-color: transparent;
+    border: none;
+    display: inline-block;
+    width: 18%;
+    text-align: center;
+    font-family: 'Itim', cursive;
+    font-weight: bold;
+    font-size: 8px;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+section .BoxListe .btn{
+    background-color : #5900ff;
+    color : #ffffff;
+    border : none;
+    display : inline-block;
+    width : 18%;
+    height : 30px;
+    text-align : center;
+    font-family : 'Itim', cursive;
+    font-weight : bold;
+    font-size: 8px;
+    border-radius : 5px;
+    padding : 5px;
+    cursor : pointer;
+}
+
+/********FOOTER********/
+footer{
+    background-color: #5900ff;
+    padding: 25px;
+    margin-top: 20px;
+}
+footer h5{
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Itim', cursive;
+    cursor: default;
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Word",
+    "logo": "<ion-icon></ion-icon>",
+    "level": "Very Good"
+  },
+  {
+    "name": "Excel",
+    "logo": "<ion-icon></ion-icon>",
+    "level": "Very Good"
+  },
+  {
+    "name": "PowerPoint",
+    "logo": "<ion-icon></ion-icon>",
+    "level": "Average"
+  },
+  {
+    "name": "Logo Design",
+    "logo": "<ion-icon></ion-icon>",
+    "level": "Good"
+  },
+  {
+    "name": "PHP",
+    "logo": "<ion-icon></ion-icon>",
+    "level": "Average"
+  },
+  {
+    "name": "Python",
+    "logo": "<ion-icon name='logo-python'></ion-icon>",
+    "level": "Average"
+  },
+  {
+    "name": "MySQL",
+    "logo": "<ion-icon></ion-icon>",
+    "level": "Very Good"
+  },
+  {
+    "name": "JSON",
+    "logo": "<ion-icon></ion-icon>",
+    "level": "Good"
+  },
+  {
+    "name": "jQuery",
+    "logo": "<ion-icon></ion-icon>",
+    "level": "Good"
+  }
+]

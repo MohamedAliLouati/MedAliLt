@@ -1,0 +1,17 @@
+[
+    {
+        "logo" : "AR",
+        "Name" : "Arabe",
+        "Level" : "Very Good"
+    },
+    {
+        "logo" : "FR",
+        "Name" : "Franch",
+        "Level" : "Good"
+    },
+    {
+        "logo" : "EN",
+        "Name" : "English",
+        "Level" : "Good"
+    }
+]

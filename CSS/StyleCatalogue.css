@@ -1,0 +1,150 @@
+html {
+  /*overflow: hidden;*/
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #101010;
+}
+
+/********HEADER********/
+header{
+   width: 100%;
+   height: 45px;
+   background-color: #000000;
+   display: flex;
+   padding: 3px;
+   margin-bottom: 20px;
+   column-gap: 3px;
+}
+header .BOXLOGO{ 
+   width: 70%;
+   height: 34px;
+   display: flex;
+   padding: 1px;
+}
+header .BOXLOGO img{
+   width: 30px;
+   height: 30px;
+   border-radius: 50%;
+   margin-right: 5px;
+}
+header .BOXLOGO h1{
+   color: #5900ff;
+   font-family: 'Tangerine', cursive;
+   font-weight: bold;
+   cursor: default;
+   font-size: 25px;
+}
+header .BOXCONTACT{
+   width: 30%;
+   height: 34px;
+   display: flex;
+   justify-content: flex-end;
+}
+header .BOXCONTACT .BOX{
+   width: 70px;
+   height: 40x;
+   cursor: pointer;
+}
+header .BOXCONTACT .BOX a{
+   text-decoration: none;
+   width: 50px;
+   height: 30x;
+   margin-top: 5px;
+   margin-left: 5px;
+   margin-right: 5px;
+   color: #ffffff;
+   font-family: 'Itim', cursive;
+    font-weight: bold;
+}
+header .BOXCONTACT .BOX .BOXBAR{
+   display: inline-block;
+   background-color: transparent;
+   width: 68px;
+   height: 2px;
+}
+header .BOXCONTACT .BOX:hover a{
+   color: #5900ff;
+}
+header .BOXCONTACT .BOX:hover .BOXBAR{
+   background-color: #5900ff;
+   animation: Bar .5s;
+}
+@keyframes Bar {
+   0%{
+       background-color: transparent;
+   }
+   100%{
+       background-color: #5900ff;
+   }
+}
+
+/*****Swiper*****/
+.swiper-container {
+  width: 80%;
+  margin: 20px auto;
+  padding: 5px;
+}
+
+.swiper-slide {
+   width: 50%;
+   margin: 0 auto;
+  background-color: #000;
+  border: .5px solid #5900ff;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.swiper-slide .Box:nth-child(1){
+   border-radius: 10px;
+}
+.swiper-slide .Box:nth-child(2){
+   padding: 5px;
+}
+.swiper-slide .Box:nth-child(1) img{
+   width: 60%;
+   margin: 5px 20%;
+   border-radius: 10px;
+}
+.swiper-slide .Box:nth-child(2) h2{
+   color: #5900ff;
+    font-family: 'Itim', cursive;
+    font-weight: bold;
+    cursor: default;
+    text-align: center;
+}
+.swiper-slide .Box:nth-child(2) p{
+   color: #ffffff;
+    font-family: 'Itim', cursive;
+    font-weight: bold;
+    cursor: default;
+}
+.swiper-slide .Box:nth-child(2) p:nth-child(3){
+   color: #949494;
+   margin-left: 15%;
+}
+.swiper-slide .Box:nth-child(2) p .titre{
+   text-decoration: underline;
+   margin-right: 20px;
+}
+
+/********FOOTER********/
+footer{
+    background-color: #5900ff;
+    padding: 25px;
+    margin-top: 20px;
+}
+footer h5{
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Itim', cursive;
+    cursor: default;
+}
